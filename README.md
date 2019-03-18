@@ -1,2 +1,2 @@
-# iccs
+# iucs
 intra-university communication system
