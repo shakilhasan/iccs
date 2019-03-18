@@ -1,0 +1,53 @@
+body{
+	height:1000px;
+	weight:600px;
+background-image: url(cuet_road.jpg);
+background-repeat: no-repeat;
+	
+}
+.heading h1{
+	margin-left:50px;
+    font: arial;
+	font-size:50px;
+	color: ;
+	
+	background-color: gray;
+	float: left;
+}
+.login form{
+	float: right; 
+	margin: 0px 0px 0px 0px;
+}
+.login form input{
+	height: 20px;
+	width: 150px;
+    border-radius:3px;
+    margin: 2px;
+
+}
+.signup img{
+height: 150px;
+width: 150px;
+margin: 70px 525px 0px;
+}
+.signup form{
+margin: 20px 500px 150px;
+float: middle;
+}
+.signup form input{
+
+	height: 30px;
+	width: 200px;
+	border-radius:3px;
+	border: 20px;
+	margin: 2px ;
+
+}
+.signup form select{
+	height: 30px;
+	width: 96px;
+	border-radius:3px;
+	border: 20px;
+	margin: 2px;
+
+}

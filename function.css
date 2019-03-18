@@ -1,0 +1,23 @@
+
+.post{
+
+	width: 600px;
+border-radius:10px;
+background-color:white;
+padding: 20px;
+margin-bottom: 10px;
+border: 2px solid black;
+}
+.post p{
+font-family: arial;
+	color: brown;
+	line-height: 16px;
+}
+.message
+{
+background-color: white;
+border:2px solid  black;
+border-radius: 10px;
+height: 100px;
+margin-bottom: 3px: 
+}

@@ -1,0 +1,29 @@
+
+
+//sql for post table
+create TABLE post(
+pok int(11) not null PRIMARY KEY AUTO_INCREMENT,
+post varchar(1000) not null,
+pk int(11) not null ,    
+sector varchar(128) not null,
+catagory varchar(128) not null
+);
+
+//sql for profile table
+create TABLE profile(
+pk int(11) not null PRIMARY KEY AUTO_INCREMENT,
+name varchar(128) not null,    
+uid varchar(128) not null,
+pwd varchar(128) not null,
+dep varchar(128) not null,
+status varchar(128) not null,
+bio int(11) not null 
+);
+
+//sql for message table
+create TABLE message(
+mk int(11) not null PRIMARY KEY AUTO_INCREMENT,
+message varchar(1000) not null,
+fuid varchar(128) not null,    
+tuid varchar(128) not null
+);
